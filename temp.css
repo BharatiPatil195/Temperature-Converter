@@ -1,0 +1,40 @@
+ body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    background-color: #e7f0ed;
+    background-image: url("https://cdn.pixabay.com/photo/2024/01/18/10/07/sunset-8516639_1280.jpg") ; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+} 
+.container { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+text-align: center; 
+    border-left:chartreuse; 
+} 
+.converter { 
+    margin-bottom: 20px; 
+} 
+input, select, button { 
+    margin: 5px; 
+    padding: 10px; 
+    border-radius: 4px; 
+    border: 3px solid #1cca59;
+    } 
+button { 
+    background-color: #007BFF; 
+    color: white; 
+    border: none; 
+} 
+button:hover { 
+    background-color: #0056b3; 
+} 
+.result { 
+    font-size: 1.5em; 
+} 
